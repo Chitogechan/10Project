@@ -1,0 +1,113 @@
+body{
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background: linear-gradient(290deg,#0762c9,#9932cc);
+    background-position: center;
+    width: 1400px;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+.menu{
+    background: #000;
+    width: 1400px;
+    height: 60px;
+    position: fixed;
+    Z-index: 1000;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    float: left;
+    width: 86px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 8px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.menu ul li a:hover{
+    background-color: #40cef1;
+}
+.parallax{
+    background-image: url(knnw.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+img{
+    border-radius: 100%;
+    border: 2px solid #8efcfc;
+    margin-top: 130px;
+    position: relative;
+    left: 630px;
+    width: 160px;
+    height: 160px;
+}
+h3{
+    background: none;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px auto;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    background: none;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px auto;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parallax2{
+    background-image: url(2.jpg);
+    min-height: 1150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+    padding: 40px 0;
+}
+.parallax2 p{
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.parallax3{
+    background-image: url(3.jpg);
+    height: 1250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+    padding: 40px 0;
+}
+.parallax3 p{
+    float: left;
+    margin-left: 3s0px;
+    font-size: 20px;
+}

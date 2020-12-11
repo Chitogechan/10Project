@@ -1,0 +1,284 @@
+<html>
+<head>
+            <title> Musik ku </title>
+<style>
+body{
+ background-image: url(bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-family: arial;
+}
+.wrapper{
+ background: #ffffff;
+ width: 900px;
+ height: 1410px;
+ border: 3px solid #1e90ff;
+ margin: 0 auto;
+}
+.header{
+ background: linear-gradient(#dda0dd, #f0f8ff);
+ width: 100%;
+ height: 170px;
+ padding-top: 5px;
+ border-bottom: 4px solid #f0f8ff;
+ background-attachment: fixed;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 35px;
+}
+ nav { 
+ float: left;
+ margin: 30px;
+ margin-top: -10px;
+ text-align: center; 
+ width: 50px; 
+ font-size: 30px;
+} 
+nav ul ul { 
+ display: none; 
+}
+ nav ul li:hover > ul{ 
+ display: block; 
+ width: 150px;
+ }
+ nav ul { 
+ background:  #b0e0e6  ; 
+ padding: 0 20px; 
+ list-style: none; 
+ position: relative; 
+ display: inline-table; 
+ width: 90%; 
+}
+ nav ul li{ 
+ float:left; 
+} 
+ nav ul li:hover{ 
+  background:#666; 
+} 
+nav ul li:hover a{ 
+ color:#fff; 
+}
+ nav ul li a{ 
+ display: block; 
+ padding: 25px; 
+ color: #fff; 
+ text-decoration: none; 
+} 
+nav ul ul{
+ background: #87ceeb; 
+ border-radius: 0px; 
+ padding: 0;
+ position: absolute; 
+ top: 100%;
+ z-index: 1000;
+ } 
+nav ul ul li{ 
+ float:none; 
+ border-bottom: 1px solid #000;
+ position: relative;
+ }
+ nav ul ul li a{ 
+ padding: 15px 40px;
+ color: #fff;
+ font-size: 25px;
+ } 
+nav ul ul li a:hover{ 
+ background-color: #666;
+ }
+.textbox{ 
+ width: 800px;
+ height: 200px;
+ font-size: 40px;
+ margin: 5px;
+ margin-top: 20px;
+ padding: 5px; 
+}
+.textbox input{
+ color: #000000;
+ width: 650px;
+ height: 80px;
+ font-size: 30px;
+ position: relative;
+ left: 110px;
+ outline: none;
+ border: 3px solid #b0e0e6;
+ box-shadow:  6px 6px rgba(0,0,0,0.4);
+}
+h2{
+ font-family: Times new roman;
+ font-size: 45px;
+ text-align: left;
+ margin: 50px;
+ padding: 10px;
+ color: #dda0dd;
+ border-bottom: 2px solid #b0e0e6;
+ margin-top: -30px;
+}
+.box{
+ background: #f0f8ff;
+ width: 800px;
+ height: 185px;
+ position: relative;
+ left: 50px;
+ margin-bottom: 20px;
+ border: 2px solid #1e90ff;
+}
+.gambar{
+ float: left;
+ width: 150px;
+ height: 155px;
+ border-radius: 100%;
+ border: 2px solid #f08080;
+ margin: 10px;
+}
+h3{
+ text-align: justify;
+ margin: 5px;
+ padding: 6px;
+ font-size: 40px;
+}
+p{
+ text-align: justify;
+ margin: 5px;
+ font-size: 35px;
+}
+.box audio{
+ position: relative;
+ left: 5px;
+ width: 550px;
+}
+#akun{
+  width: 100%;
+  height: 205px;
+  background: linear-gradient(#f0f8ff, #dda0dd);
+  margin-top: 90px;
+}
+h4{
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: times new roman;
+  margin-bottom: 10px;
+}
+.akun1 {
+  background-image: url(fb.jpg);
+  width: 64px ; 
+  height: 64px;
+  float: left;
+  border: 1px solid #000;
+  border-radius: 15%;
+  background-repeat: no-repeat;
+  margin: 10px;
+  margin-left: 50px;
+}
+.akun1 a{
+  font-size: 5px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.akun2 {
+  background-image: url(ig.jpg);
+  width: 64px ; 
+  height: 64px;
+  float: left;
+  border: 1px solid #000;
+  border-radius: 15%;
+  background-repeat: no-repeat;
+  margin: 10px;
+  margin-left: 25px;
+}
+.akun2 a{
+  font-size: 5px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color	: none;
+  margin-top: 10px;
+  margin-left: 50px;
+   padding-top: tpx;
+	color				: white;
+	font-size			: 30px;
+	position			: relative;
+  float: left;
+}
+</style>
+</head>
+<body>
+<div class="wrapper ">
+     <div class=" header">
+<h1>Musik ku</h1>
+     </div>
+
+ <nav> 
+       <ul> 
+ <li><a href="#">Menu</a>
+             <ul> 
+<li><a href="#">Home</a></li>
+ <li><a href="#">Favorit</a></li>
+ <li><a href="#">Musik</a></li>
+ <li><a href="#">Genre</a></li>
+ <li><a href="#">Artis</a></li>
+            </ul> 
+</li> 
+       </ul> 
+</nav>
+ 
+        <div class="textbox">
+  <input type="text" placeholder="Cari disini..." name="" value=""/>
+        </div>
+
+<h2> Paling sering diputar</h2>
+
+          <div class="box">
+ <image src="1.jpg" class="gambar" >
+<h3> Tatoe Donna ni...</h3>
+<p> Nishino kana</p>
+<audio controls loop>
+<source src="musik/Tatoe Donna ni.mp3" type="audio/mp3">
+</audio>
+          </div>
+
+          <div class="box">
+ <image src="2.jpg" class="gambar" >
+<h3> Gomenne...</h3>
+<p> Nishino kana</p>
+<audio controls loop>
+<source src="musik/Gomenne.mp3" type="audio/mp3">
+</audio>
+          </div>
+
+          <div class="box">
+ <image src="3.jpg" class="gambar" >
+<h3> Heart attack</h3>
+<p> One direction</p>
+<audio controls loop>
+<source src="musik/heart attack.mp3" type="audio/mp3">
+</audio>
+          </div>
+
+     <div id="akun">
+<h4> Kunjungi akun pribadi kami </h4>
+           <div class="Akun1">
+<a href="#"> facebook</a>
+           </div>
+       <div class="Akun2">
+<a href="#"> instagram</a>
+        </div>
+		<div id="footer">&copy Musikku </div>
+    </div>
+</div>
+</body>
+</html>

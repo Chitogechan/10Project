@@ -1,0 +1,76 @@
+body{
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background: linear-gradient(55deg,#0762c9,#9932cc);
+    background-position: center;
+    width: 1100px;
+    height: auto;
+}
+.menu{
+    background: #000;
+    width: 1100px;
+    height: 45px;
+    position: fixed;
+    Z-index: 1000;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    float: left;
+    width: 78px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 8px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+.menu ul li a:hover{
+    background-color: #40cef1;
+}
+header{
+    background-image: url(knnw.jpg);
+    position: relative;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+img{
+    border-radius: 100%;
+    border: 2px solid #8efcfc;
+    margin-top: 120px;
+    position: relative;
+    left: 500px;
+    width: 130px;
+    height: 130px;
+}
+h3{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align; left;
+    margin: 15px;
+    font-size: 20px;
+}

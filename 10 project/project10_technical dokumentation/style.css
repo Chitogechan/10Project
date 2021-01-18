@@ -1,0 +1,79 @@
+body{
+    min-width: 300px;
+    background-color: #ffffff;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #a10000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+}
+#list-example{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-right: 5px solid #555555;
+    overflow: scroll;
+  }
+#list-example a{
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #a10000;
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    padding: 13px;
+}
+#list-example a:hover{
+    background-color: #fc3f3faf;
+    color: #ffffff;
+    text-shadow: 2px 2px #a0a0a0;
+    transition: 0.30s;
+}
+.scrollspy-example{
+    position: absolute;
+    margin-left: 315px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+h4{
+    font-size: 30px;
+    margin: 30px 10px ;
+    border-bottom: 2px solid #242424;
+    font-weight: bold;
+}
+p{
+   font-size: 22px;
+}
+.box{
+    background-color: #a0a0a0;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px #555555;
+    padding: 15px;
+    margin: 8px;
+}
+.box p{
+    font-size: 18px;
+}
+li{
+    font-size: 20px
+}
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {      
+    background: rgb(255, 79, 79); 
+    border-radius: 10px;   
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:#faacaccb;
+    border-radius: 10px;
+}

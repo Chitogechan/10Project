@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Unravel Parallax
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <audio hidden autoplay loop>
+            <source src="unravel.mp3" type ="audio/mpeg">
+      </audio>
+        <div class="zoom">
+            <img src="gambar/touka.png" id="layer1">
+            <img src="gambar/kaneki.png" id="layer2">      
+            <img src="gambar/text.png" id="text"> 
+        </div>
+        <div class="content">
+            <h3>
+                ROMAJI:
+            </h3>
+          <p>Oshiete oshiete yo sono shikumi wo
+            Boku no naka ni dare ga iru no?<br>
+            Kowareta kowareta yo kono sekai de
+            Kimi ga warau nanimo miezu ni<br><br>
+            
+            Kowareta boku nante sa iki wo tomete
+            Hodokenai mou hodokenai yo shinjitsu sae freeze<br>
+            Kowaseru kowasenai kurueru kuruenai
+            Anata wo mitsukete<br><br> yureta
+            
+            Yuganda sekai ni dandan boku wa sukitootte mienaku natte<br>
+            Mitsukenaide boku no koto wo mitsumenaide
+            Dareka ga egaita sekai no naka de<br> anata wo kizutsuketaku wa nai yo
+            Oboeteite boku no koto wo<br><br> azayaka na mama...
+            
+            Mugen ni hirogaru kodoku ga karamaru
+            Mujaki ni waratta kioku ga sasatte<br>
+            Ugokenai ugokenai ugokenai
+            Ugokenai ugokenai ugokenai yo
+            Unravelling the world<br><br>
+            
+            Kawatte shimatta kaerarenakatta
+            Futatsu ga karamaru futari ga horobiru<br>
+            Kowaseru kowasenai kurueru kuruenai
+            Anata wo kegasenai yo <br><br>yureta
+            
+            Yuganda sekai ni dan dan boku wa sukitootte mienaku natte<br>
+            Mitsukenaide boku no koto wo mitsumenaide
+            Dareka ga shikunda kodoku na wana ni<br> mirai ga hodokete shimau mae ni
+            Omoidashite boku no koto wo<br> azayaka na mama
+            
+            Wasurenaide wasurenaide wasurenaide wasurenaide<br><br>
+            
+            Kawatte shimatta koto ni paralyze
+            Kaerarenai koto darake no paradise<br>
+            Oboeteite boku no koto wo...<br>
+            Oshiete oshiete boku no naka ni dare ga iru no?</p>
+          </div>
+        <script>
+            var layer1 = document.getElementById('layer1')
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll', function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                layer1.style.width = (100 + scroll/5) + '%';
+            });
+            var layer2 = document.getElementById('layer2')
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll', function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                layer2.style.width = (100 + scroll/5) + '%';
+                layer2.style.left = scroll/50 + '%';
+            });
+            var text = document.getElementById('text')
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll', function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                text.style.top = - scroll/100 + '%';
+            });
+        </script>
+    </body>
+</html>

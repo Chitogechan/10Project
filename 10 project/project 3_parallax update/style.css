@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.zoom{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    background: url(gambar/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zoom:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1000;
+    background: linear-gradient(transparent, rgb(102, 101, 101));
+}
+#layer1{
+    position: absolute;
+    left: 30%;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+#layer2{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    transform: translateX(25%);
+    z-index: 9;
+}
+#text{
+    position: absolute;
+    right: -27%;
+    width: 1900px;
+    height: 1000px;
+    transform: translateY(20%);
+}
+.content{
+    padding: 100px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(107, 107, 107);
+}
+.content h3{
+    font-size: 40px;
+    color: white;
+}
+.content p{
+    font-size: 25px;
+    color: white;
+}
